@@ -1,0 +1,42 @@
+
+hemos instalado para estas operaciones las siguientes extenciones
+
+- expressjs 
+- bootstrap v4 snippets
+- ejslanguage support
+- andromeda
+
+extensiones ya agregadas
+
+- auto close tag
+- auto import
+- auto rename tag
+- beautify
+- bracket pair colorizer 2
+- ESlint
+- LIVE SERVER
+- npm intellisense
+- REST client
+- vscode icons
+
+trabajaremos con las tecnologias 
+npm int
+npm i express
+npm i express-generator -g  este nos crea la estructura del proyecto
+npn install
+
+vamos a utilizar un motor de plantilla que se llama ejslanguage
+express --view=ejs    se cree toda la estructura usando el motor ejs y crea unas carpetas bin, public etc etc
+
+luego de todo esto ejecutamos
+
+-npm start    y vamos al navegador localhost:3000 y vemos la palabra express y welcome to express
+
+instalamos nodemon
+
+npm i nodemon -g
+ ejecutamos nodemon start
+
+ /// BASE DE DATOS
+
+ npm i mysql

@@ -1,0 +1,28 @@
+
+// METODOS PARA ARRAYS
+
+* para agregar, modificar, eliminar elementos : 
+
+   *.push()              sirve para agregar nuevos elementos al final del array
+   *.pop()               elimina el ultimo elemento del array
+   *.unshift()           sirve para agregar elementos a un array al comienzo a diferencia de push que lo hace al final
+   *.shift()             sirve para eliminar al principio
+   *.splice(x,y)         elimina en un rango de elementos, desde cierto elemento hasta cierto elemento primer paramtro comienzo, segundo cuantos despues del numero
+                         splice tambien sirve para reemplazar y eliminar, o para agregar elementos entre un rango de elementos
+
+   
+// METODOS PARA STRING
+   
+   *.splice()            convierte un string en un array
+   *.lenght              calcula la longitud del string
+   *.charAt()            busca el caracter en una dada posicion (number)
+   *.split("")           para separar un string en cada componente individual
+   *.toLocaleUpperCase() convertir a mayuscula
+   *.toLocaleLowerCase() convertir a minuscula
+   *.indexOf("e")        busca la primera posicion del elemento o string
+   *.lastIndexOf("e")    busca la ultima posicion del elemento o string
+   *.substr(x,(text.lenght)-1) substraer una fraccion del texto
+
+// OBJETOS
+
+// FUNCIONES
