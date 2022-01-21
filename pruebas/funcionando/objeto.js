@@ -1,3 +1,7 @@
+
+
+/* aplica metodos y funciones a los objetos*/
+
 // funcion constructora
 
 function user(nombre,apellido,edad,correo){

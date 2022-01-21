@@ -80,6 +80,17 @@ console.log(solonombres);
 const soloapellido = users.map(obtenerapellido);
 console.log(soloapellido);
 
+
+//******************************** FILTER**************************************** */
+const age = 24
+
+const filterbyage = (age)=> {
+
+    return users.filter(user => user.edad == age)
+
+} 
+console.log(filterbyage(age));
+
 //******************************************************************************* */
 
 //*******************   METODO find()   **********************/ 
