@@ -66,3 +66,55 @@
   3
  
 */
+
+
+function calcularMaximoRetorno(instruccion) {
+
+  let arr = [];
+
+  instruccion.forEach((rute) => {
+
+    const steps = rute.split("");
+
+    let distances = [];
+
+    let x = 0;
+    let y = 0;
+    let distance = 0;
+
+    steps.forEach((step) => {
+
+      switch (step) {
+
+        case "R":
+          x += 1;
+          break;
+
+        case "U":
+          y += 1;
+          break;
+
+        case "L":
+          x -= 1;
+          break;
+
+        case "D":
+          y -= 1;
+          break;
+
+        default:
+          break;
+      }
+
+      distance = Math.abs(x) + Math.abs(y);
+      distances.push(distance);
+
+    });
+
+    const resul = Math.max(distances);
+    arr.push(Math.max(...distances));
+
+  });
+  
+  return arr;
+}
